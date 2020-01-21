@@ -90,7 +90,8 @@ end
 control 'informix-06' do
   impact 0.5
   title 'Check non-standard ports'
-  # what about mongo and mq ports?
+  desc 'Check oninit is not running on non-standard ports'
+  # what about mongo and mq ports though?
   describe port.where { process =~ /oninit/ && port < 9088 && port > 9088 } do
     it { should_not be_listening }
   end
