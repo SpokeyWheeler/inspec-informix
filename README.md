@@ -1,3 +1,3 @@
 # Example InSpec Profile
 
-This example shows the implementation of an InSpec profile.
+This is the implementation of an InSpec profile for an Informix database.
