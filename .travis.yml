@@ -3,4 +3,6 @@
   language: generic
 
   before_install:
-    - sudo gem install inspec-bin
+    - gem install inspec-bin
+    
+  script: ./scripts/run-tests.sh
