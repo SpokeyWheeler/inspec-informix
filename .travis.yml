@@ -1,6 +1,6 @@
   dist: bionic
 
-  language: ruby
+  language: generic
 
   before_install:
     - gem install inspec-bin
