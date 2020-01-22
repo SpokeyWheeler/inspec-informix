@@ -1,8 +1,9 @@
   dist: bionic
 
-  language: generic
+  language: minimal
 
   before_install:
-    - gem install inspec-bin
+    - wget  https://packages.chef.io/files/stable/inspec/4.18.51/ubuntu/18.04/inspec_4.18.51-1_amd64.deb
+    - sudo dpkg inspec_4.18.51-1_amd64.deb
 
   script: ./scripts/run_tests.sh
