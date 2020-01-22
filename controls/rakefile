@@ -1,0 +1,4 @@
+desc "Null task"
+task :null_task do
+  puts "Exit"
+end
