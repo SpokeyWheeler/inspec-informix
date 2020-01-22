@@ -1,1 +1,1 @@
-inspec check ..
+inspec check .
