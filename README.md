@@ -3,4 +3,4 @@
 
 # InSpec Profile for Informix
 
-This is the implementation of an InSpec profile for an Informix database.
+This is the implementation of an InSpec profile for an Informix database. It's a starting point.
