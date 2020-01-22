@@ -4,3 +4,5 @@
 
   before_install:
     - gem install inspec-bin
+
+  script: ./scripts/run-tests.sh
