@@ -43,7 +43,7 @@ control 'informix-02' do
   title 'Informix should be running'
   desc 'onstat - stdout should contain either Prim or Read-Only or RSS'
   describe command("source /opt/informix/.bashrc ; onstat - | egrep \"Prim|Read-Only|RSS\" | wc -l | awk '{print $1}'").stdout do
-    it { should cmp 1 } 
+    it { should cmp 1 }
   end
 end
 
@@ -52,7 +52,7 @@ control 'informix-03' do
   title 'Use latest stable Informix version'
   desc 'onstat - stdout should be 14.10.FC3'
   describe command("source /opt/informix/.bashrc ; onstat - | grep '14.10.FC3 | wc -l | awk '{print $1}'").stdout do
-    it { should cmp 1 } 
+    it { should cmp 1 }
   end
 end
 
@@ -61,7 +61,7 @@ control 'informix-04' do
   title 'Only one instance of Informix should be running'
   desc 'onstat -g dis should only return one server with an Up status'
   describe command("source /opt/informix/.bashrc ; onstat -g dis | grep \" : Up\" | wc -l | awk '{print $1}'").stdout do
-    it { should cmp 1 } 
+    it { should cmp 1 }
   end
 end
 
