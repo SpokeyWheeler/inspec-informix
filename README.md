@@ -5,4 +5,4 @@
 
 This is the implementation of an InSpec profile for an Informix database.
 
-After struggling with 2 different CI tools, I'm giving up on automated testing for this for a while.
+It obviously requires InSpec, I've manually tested with 4.18.51, but because you can't automate license acceptance my automated tests are with 3.9.6.
