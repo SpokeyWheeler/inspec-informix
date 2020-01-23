@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/spokeywheeler/inspec-informix/badge/master)](https://www.codefactor.io/repository/github/spokeywheeler/inspec-informix/overview/master)
+
 # InSpec Profile for Informix
 
 This is the implementation of an InSpec profile for an Informix database.
