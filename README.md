@@ -1,5 +1,5 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/spokeywheeler/inspec-informix/badge/master)](https://www.codefactor.io/repository/github/spokeywheeler/inspec-informix/overview/master)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2bef8847b588434ebd1a920d9eac0a65)](https://app.codacy.com/manual/Zinaida/inspec-informix?utm_source=github.com&utm_medium=referral&utm_content=SpokeyWheeler/inspec-informix&utm_campaign=Badge_Grade_Dashboard)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/5b4b2450fc3c4d079f9b530dc8c2327b)](https://www.codacy.com/gh/SpokeyWheeler/inspec-informix/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpokeyWheeler/inspec-informix&amp;utm_campaign=Badge_Grade)
 
 # InSpec Profile for Informix
 
